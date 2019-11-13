@@ -1,0 +1,5 @@
+eureka.client.service-url.defaultZone=http://localhost:8008/eureka/
+spring.application.name=client1
+server.port=8118
+CLIENT2.ribbon.NFLoadBalancerRuleClassName=com.netflix.loadbalancer.RandomRule
+feign.hystrix.enabled=true
